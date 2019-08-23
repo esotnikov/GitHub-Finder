@@ -1,0 +1,6 @@
+<div class="title_card">Repositories user</div>
+<div *ngIf="repo">
+  <div *ngFor="let item of repo">
+    <app-repo-item [item]="item"></app-repo-item>
+  </div>
+</div>

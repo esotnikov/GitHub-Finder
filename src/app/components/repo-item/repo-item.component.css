@@ -1,0 +1,24 @@
+.card_repo {
+    display: flex;
+    align-items: center;display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.name_repo {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.btn_profile {
+    padding: 6px;
+    outline: none;
+    text-decoration: none;
+    background-color: #28a745;
+    color: #fff;
+    height: 18px;
+    border-radius: 3px;
+    font-size: 14px;
+}

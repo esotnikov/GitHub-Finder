@@ -1,0 +1,10 @@
+<div class="title_card">Information user</div>
+<div class="user_card" *ngIf="user">
+  <div class="avatar">
+    <img [src]="user.avatar" alt="">
+  </div>
+  <div class="user_title">
+    <div class="name">{{ user.name }}</div>
+    <a [href]="user.link" class="btn_profile" target="_blank">Go to profile</a>
+  </div>
+</div>

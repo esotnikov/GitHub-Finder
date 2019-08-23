@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="user_info_block">
+      <app-user-info [user]="user$ | async"></app-user-info>  
+    </div>
+    <div class="user_repo_block">
+      <app-repo-list [repo]="repo$ | async"></app-repo-list>
+    </div>
+</div>
